@@ -1,0 +1,33 @@
+
+
+body {
+	background-color: grey;
+}
+
+/***MAIN C STYLE***/
+
+
+div .main-form{
+	bottom: 0;
+	position: absolute;
+	width: calc(100% - 60%);
+
+}
+.main-body{
+	background-color:#7c889b; 
+	width: 30em;
+	height: 46em;
+	margin: 0 auto;
+}
+
+/** TEXT INPUT**/
+input[type=text]{
+	border: 1px solid #ccc;
+	width: 85%;
+	bottom: 0;
+
+
+}
+button {
+	color: #30b536;
+}
