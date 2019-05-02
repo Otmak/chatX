@@ -1,5 +1,3 @@
-
-
 let socket = io();
 let form = document.getElementById('m-form');
 let textInfo = document.getElementById('textInfo');
