@@ -5,7 +5,9 @@ body {
 }
 
 /***MAIN C STYLE***/
-
+div#textBody li{
+	list-style: none;
+}
 
 div .main-form{
 	bottom: 0;
@@ -15,9 +17,9 @@ div .main-form{
 }
 .main-body{
 	background-color:#7c889b; 
-	width: 30em;
-	height: 46em;
-	margin: 0 auto;
+	width: auto;
+	height: auto;
+	margin:  auto;
 }
 
 /** TEXT INPUT**/
