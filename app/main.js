@@ -14,7 +14,7 @@ io.on('connection', function (socket){
 	console.log('CONNECTED!',socket.id);
 
 	socket.on('chat', function(msg){
-	 console.log('YESSSSSSSSS '+ msg);
+	 console.log('MESSAGE: '+ msg);
 	 io.emit('chat', msg);
  });
 
