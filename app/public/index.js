@@ -3,7 +3,6 @@ let form = document.getElementById('m-form');
 let textInfo = document.getElementById('textInfo');
 let textBody = document.getElementById('textBody');
      
-
 form.addEventListener('submit',function (e) {
 	 e.preventDefault();
 	 socket.emit('chat', textInfo.value); 
