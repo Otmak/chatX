@@ -21,5 +21,6 @@ socket.on('chat', function (msg){
 	 textBody.appendChild(p);
 	 textBody.appendChild(li);
 	 p.innerHTML =  msg;
+	 
 	 //li.innerHTML = timeStamp;
 });

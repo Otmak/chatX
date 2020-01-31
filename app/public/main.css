@@ -1,8 +1,8 @@
 
 
 body {
-	background-color: grey;
-	color: #fff;
+	background-color: #e0e0e0;
+	color: #000;
 }
 
 /***MAIN C STYLE***/
@@ -17,17 +17,24 @@ div .main-form{
 
 }
 .main-body{
-	background-color:#7c889b; 
-	width: auto;
-	height: auto;
-	margin:  auto;
+	background-color:#ffffff; 
+	width: 70%;
+	height: 80% !important;
+	margin: 0 auto;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div#textBody{
+	height: 700px;
 }
 
 /** TEXT INPUT**/
 input[type=text]{
 	border: 1px solid #ccc;
-	width: 85%;
+	width: 70%;
+	border-radius: 10px;
 	bottom: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 
 button {
