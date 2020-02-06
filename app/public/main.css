@@ -1,7 +1,7 @@
 
 
 body {
-	background-color: #e0e0e0;
+	background-color: #E1EAF2;
 	color: #000;
 }
 
@@ -20,24 +20,36 @@ div .main-form{
 	background-color:#ffffff; 
 	width: 70%;
 	height: 80% !important;
-	margin: 0 auto;
-	border-radius: 10px;
+	margin: auto;
+	border-radius: 9px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 div#textBody{
 	height: 700px;
+	box-sizing: border-box;
 }
-
 /** TEXT INPUT**/
-input[type=text]{
+input[type=textarea]{
 	border: 1px solid #ccc;
-	width: 70%;
-	border-radius: 10px;
+	width: 60%;
+	padding: .2em;
+	border-radius: 2px;
 	bottom: 0;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)*/
+}
+button.sButton {
+	background-color: #1e90ff;
+	border: none;
+    color: white;
+    padding: 10px 27px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button.sButton:hover{
+	background-color: #386dff;
 }
 
-button {
-	color: #30b536;
-}
 /*******************************FLEX BOX &  GRID ***************/
