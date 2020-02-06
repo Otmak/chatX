@@ -21,20 +21,20 @@ div .main-form{
 	width: 70%;
 	height: 80% !important;
 	margin: auto;
-	border-radius: 9px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 1px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 div#textBody{
 	height: 700px;
 	box-sizing: border-box;
 }
 /** TEXT INPUT**/
-input[type=textarea]{
+textarea#textInfo{
 	border: 1px solid #ccc;
 	width: 60%;
 	padding: .2em;
 	border-radius: 2px;
-	bottom: 0;
+	margin: 1em;
 	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)*/
 }
 button.sButton {
@@ -50,6 +50,10 @@ button.sButton {
 }
 button.sButton:hover{
 	background-color: #386dff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+textarea#textInfo:focus{
+	outline: none;
 }
 
 /*******************************FLEX BOX &  GRID ***************/
