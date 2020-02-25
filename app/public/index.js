@@ -19,6 +19,7 @@ form.addEventListener('submit',function (e)
 
 socket.on('chat', function (msg)
 {
+	 
 	 let p = document.createElement('p');
 	 let t = document.createElement('small');
 	 t.setAttribute('title', `Posted at ${timeStamp}:${s}`);
