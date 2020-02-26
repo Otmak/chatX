@@ -35,12 +35,7 @@ div#textBody{
 	box-sizing: border-box;
 	padding: .7em;
 }
-/*div#textBody p {
-	background-color: #d2e9ff ;
-	width: max-content;
-	border-radius: 0px 50px 50px 50px;
-	margin: .89em;
-}*/
+
 p small.timeClass{  /*Time stamp style*/
 	margin: .8em;
 	color: #c5cacd;
@@ -76,4 +71,3 @@ textarea#textInfo:focus{
 form#m-form{
 	display: flex;
 }
-/*******************************FLEX BOX &  GRID ***************/
