@@ -11,7 +11,10 @@ div#textBody li{
 }
 div#textBody p{
 	padding: .7em;
-	margin: 1px;
+	background-color: #d2e9ff ;
+	width: max-content;
+	border-radius: 0px 50px 50px 50px;
+	margin: .89em;
 }
 div.main-form{
 	bottom: 0;
@@ -30,12 +33,14 @@ div.main-form{
 div#textBody{
 	height: 700px;
 	box-sizing: border-box;
+	padding: .7em;
 }
-div#textBody p {
+/*div#textBody p {
 	background-color: #d2e9ff ;
 	width: max-content;
 	border-radius: 0px 50px 50px 50px;
-}
+	margin: .89em;
+}*/
 p small.timeClass{  /*Time stamp style*/
 	margin: .8em;
 	color: #c5cacd;
